@@ -39,7 +39,7 @@ function BMICalculatorComponent() {
           onChange={(e) => setHeight(e.target.value)}
         />
       </div>
-      <button onClick={handleCalculate}>Calculate BMI</button>
+      <button onClick={handleCalculate}>คำนวน</button>
       {bmi && <p>Your BMI is: {bmi}</p>}
       {interpretation && <p>Interpretation: {interpretation}</p>}
     </div>
